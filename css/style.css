@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    /* color: var(--text-color); */
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+:root {
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: #eeeff1;
+  --poppins: "Poppins", sans-serif;
+}
+body{
+    background-color: var(--background-color);
+    font-family: var(--poppins);
+    color: var(--text-color);
+    scroll-behavior: smooth;
+    max-width: 1400px;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar */
+#nav{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 50px;
+    height: 80px;
+}
+#nav .link{
+    display: flex;
+    gap: 20px;
+}
+#nav .link a{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: var(--text-color);
+}
+#nav .link a:last-child{
+    padding: 5px 15px;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    border-radius: 5px;
+}
+/* hero */
+#hero{
+    padding: 0 50px;
+}
+#hero .row{
+    display: flex;
+    gap: 40px;
+}
+#hero .txt_col h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+#hero .txt_col p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 0 25px;
+    width: 770px;
+}
+#hero .txt_col .link{
+    display: flex;
+    gap: 14px;
+}
+#hero .txt_col .link a{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    
+    padding: 8px 12px;
+    border: 2px solid #4a76ee;
+    border-radius: 5px;
+}
+#hero .txt_col .link a{  
+    font-size: 16px;
+    font-weight: 400; 
+}
+#hero .img_col img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+/* Skills */
+#skills{
+    padding: 100px 50px 0;
+}
+#skills .skill_col h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4px;
+}
+#skills .skill_col p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+#skills .skill_col ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+#skills .skill_col ul li{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 11px 50px;
+    border: 2px solid var(--text-color);
+    border-radius: 5%;
+}
+#skills .skill_col ul li img{
+    width: 30px;
+    height: 30px;
+}
+/* Testimony */
+#testimony{
+    padding: 100px 50px 0;
+}
+#testimony .row{
+    gap: 60px;
+    align-items: center;
+}
+#testimony .test_left h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+#testimony .test_left img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 0 16px;
+}
+#testimony .test_left .title{
+    width: 175px;
+    text-align: center;
+}
+#testimony .test_left .title h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+#testimony .test_left .title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#testimony .test_right p{
+    width: 880px;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Contact */
+#contact{
+    padding: 100px 50px 0;
+}
+#contact .row{
+    justify-content: space-between;
+}
+#contact .contact_left h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+#contact .contact_left p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 555px;
+}
+#contact .contact_right form button{
+    padding: 14px 250px;
+    background-color: var(--link-color);
+
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--background-color);
+    border: none;
+}
+
