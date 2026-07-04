@@ -194,4 +194,11 @@ html{
     color: var(--background-color);
     border: none;
 }
-
+/* testting how to push on new branch  */
+#pakhi{
+    padding: 100px 50px 0;
+}
+#pakhi .amar h1{
+    text-align: center;
+    color: var(--link-color);
+}
